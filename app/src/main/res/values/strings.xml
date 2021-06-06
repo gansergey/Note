@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Note</string>
+    <string name="app_name">Заметки</string>
+    <string name="text_warning">Заполните все поля!</string>
+    <string name="name_note">Название</string>
+    <string name="date_note">Дата</string>
+    <string name="text_note">Текст заметки</string>
+    <string name="save_note">Сохранить заметку</string>
+    <string name="about">О приложении</string>
+    <string name="create_note">Создать</string>
+    <string name="settings">Настройки</string>
 </resources>

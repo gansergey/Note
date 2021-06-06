@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_edit_text">6dp</dimen>
+    <dimen name="text_size_name_note">24sp</dimen>
+    <dimen name="text_size_date_note">18sp</dimen>
+    <dimen name="text_size_description_note">16sp</dimen>
+</resources>
