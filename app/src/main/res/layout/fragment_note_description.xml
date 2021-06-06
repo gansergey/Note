@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_edit_text"
+        android:layout_marginTop="@dimen/margin_edit_text"
+        android:layout_marginRight="@dimen/margin_edit_text"
+        android:hint="@string/name_note"
+        android:padding="@dimen/margin_edit_text"
+        android:textSize="@dimen/text_size_name_note" />
+
+    <EditText
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_edit_text"
+        android:layout_marginTop="@dimen/margin_edit_text"
+        android:layout_marginRight="@dimen/margin_edit_text"
+        android:hint="@string/date_note"
+        android:inputType="date"
+        android:padding="@dimen/margin_edit_text"
+        android:textSize="@dimen/text_size_date_note" />
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_edit_text"
+        android:layout_weight="1"
+        android:background="@color/background_note"
+        android:gravity="top"
+        android:hint="@string/text_note"
+        android:padding="@dimen/margin_edit_text"
+        android:textSize="@dimen/text_size_description_note" />
+
+    <Button
+        android:id="@+id/button_save_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_edit_text"
+        android:text="@string/save_note" />
+
+    <TextView
+        android:id="@+id/text_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_edit_text"
+        android:textColor="@color/color_text_warning" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
